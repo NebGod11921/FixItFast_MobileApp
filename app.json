@@ -31,12 +31,9 @@
       "expo-router"
     ],
     "experiments": {
-      "typedRoutes": true
-    },
-    "extra": {
-      "eas": {
-        "projectId": "a798bf0b-0239-4692-8bbf-32bca893b0ec"
+      "typedRoutes": true,
+           "projectId": "3fc72d91-0698-4611-bf11-5f574104d4ae"      
       }
     }
   }
-}
+
