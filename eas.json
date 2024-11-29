@@ -2,56 +2,13 @@
   "build": {
     "preview": {
       "android": {
-        "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease",
-        "androidSdkVersion": 34,
-        "compileSdkVersion": 34,
-        "targetSdkVersion": 34,
-        "buildToolsVersion": "34.0.0"
+        "buildType": "apk"
       },
       "distribution": "internal"
-    },
-    "preview2": {
-      "android": {
-        "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease",
-        "androidSdkVersion": 34,
-        "compileSdkVersion": 34,
-        "targetSdkVersion": 34,
-        "buildToolsVersion": "34.0.0"
-      },
-      "distribution": "internal"
-    },
-    "preview3": {
-      "developmentClient": true,
-      "android": {
-        "buildType": "apk",
-        "gradleCommand": ":app:assembleDebug",
-        "androidSdkVersion": 34,
-        "compileSdkVersion": 34,
-        "targetSdkVersion": 34,
-        "buildToolsVersion": "34.0.0"
-      },
-      "distribution": "internal"
-    },
-    "preview4": {
-      "distribution": "internal",
-      "android": {
-        "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease",
-        "androidSdkVersion": 34,
-        "compileSdkVersion": 34,
-        "targetSdkVersion": 34,
-        "buildToolsVersion": "34.0.0"
-      }
     },
     "production": {
       "android": {
-        "buildType": "app-bundle",
-        "androidSdkVersion": 34,
-        "compileSdkVersion": 34,
-        "targetSdkVersion": 34,
-        "buildToolsVersion": "34.0.0"
+        "buildType": "app-bundle"
       }
     }
   }
