@@ -4,7 +4,6 @@
     "slug": "FixItFast",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/logo/logoApp.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -28,11 +27,11 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-build-properties"
     ],
     "experiments": {
-      "typedRoutes": true,
-      "projectId": "3fc72d91-0698-4611-bf11-5f574104d4ae"
+      "typedRoutes": true
     },
     "extra": {
       "router": {
